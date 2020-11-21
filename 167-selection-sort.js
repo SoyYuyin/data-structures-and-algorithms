@@ -18,4 +18,4 @@ function selectionSort(array) {
 selectionSort(numbers)
 console.log(numbers)
 
-// note in second for loop j initializes as i+1 not 1, otherwise it woud reset to 1 every loop
+// note in second for loop j initializes as i+1 not 1.
