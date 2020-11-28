@@ -1,6 +1,6 @@
 import math
 
-def it_binarySearch(mylist, target):
+def binarySearch(mylist, target):
         first = 0
         last = len(mylist)-1
 
@@ -18,6 +18,6 @@ def it_binarySearch(mylist, target):
 
 test_list = [0,3,4,7,9,11,34,46,57,65]
 
-print(it_binarySearch(test_list, 4))
-print(it_binarySearch(test_list, 30))
-print(it_binarySearch(test_list, 57))
+print(binarySearch(test_list, 4))
+print(binarySearch(test_list, 30))
+print(binarySearch(test_list, 57))
